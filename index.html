@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aurelie FOUGERE">
+        <meta name="keywords" content="tigre, birmanie, premier site">
+        <meta name="description" content="Ceci est un site d'apprenissage du langage HTML, mais aussi du CSS et BOOTSTRAP">
         <title>WWF</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
@@ -12,21 +15,21 @@
         <header>
             <div class="container-fluid fond d-flex flex-column justify-content-between">
 
-                <!--               Menu-->
+                <!--   Menu -->
                 <div class="row  d-flex justify-content-around align-items-center">
-                    <div class="Offset-7 col-2 order-2 col-md-2 order-md-1">
-                        <img src="img/WWF-logo.png" alt="" class="img-fluid">
+                    <div class="offset-6 col-2 order-2 offset-md-0 col-md-3 order-md-1">
+                        <a id="#haut"></a><a href="bas"><img src="img/WWF-logo.png" alt="" class="img-fluid"></a>
                     </div>
                     <div class="offset-lg-2 col-lg-2 d-none d-lg-block order-lg-2">
-                        <h3 class="menu">Accueil</h3>
+                        <h3 class="menua">Accueil</h3>
                     </div>   
-                    <div class=" col-2 d-none d-lg-block order-lg-3">
-                        <h3 class="menu">La formation</h3>
+                    <div class="d-none d-lg-block order-lg-3">
+                        <a href="mois"><h3 class="menu">Sujet du mois</h3></a>
                     </div>   
-                    <div class="col-2 d-none d-lg-block order-lg-4">
-                        <h3 class="menu">Nous aider</h3>
+                    <div class="d-none d-lg-block order-lg-4">
+                        <a href="aider"><h3 class="menu">Nous aider</h3></a>
                     </div>   
-                    <div class="col-2 d-none d-lg-block order-lg-5">
+                    <div class="d-none d-lg-block order-lg-5">
                         <h3 class="menu">Contact</h3>
                     </div>
 
@@ -35,11 +38,11 @@
                     </div>
                 </div>
 
-                <!--                Partie bas tigre-->
+                <!--   Partie tigre de Birmanie -->
                 <div class="row fondopacite">
                     <div class=" offset-lg-6 col-lg-6 col-12">
                         <h1 class="titretigre">Le tigre de Birmanie</h1>
-                        <p class="textmenu d-none d-lg-block">Les combats qui font rage depuis un an dans l'extr^me nord de la Birmanie font des victimes inattendues: des dizaines de tigres, qui survivent tant bien que mal dans la plus grande réserve au monde dédiée à leur protection, et située près des zones de combats</p>
+                        <p class="textmenu d-none d-lg-block">Les combats qui font rage depuis un an dans l'extrême nord de la Birmanie font des victimes inattendues : des dizaines de tigres, qui survivent tant bien que mal dans la plus grande réserve au monde dédiée à leur protection, et située près des zones de combats</p>
                         <p class="textmenu d-none d-lg-block">En 2010, la junte aujourd'hui dissoute avait étendu ce santuaire, qui atteint désormais près de 22.000km - quasiment la taille d'Israël dans la vallée recumée de Hukang. De 50 à 70 tigres y vivraient aujourd'hui.</p>
                         <div class="offset-2 col-7 offset-md-4 col-md-4 d-lg-none text-center boutondossier mb-3">
                             <h1 class="dossiercomplet ">Voir le dossier complet</h1>
@@ -50,7 +53,7 @@
         </header>
 
 
-        <!--           Bandeau blanc-->
+        <!--   Bandeau blanc-->
         <section>
             <div class="container">
                 <div class="row d-flex align-items-center mb-5 mt-5">
@@ -58,8 +61,8 @@
                         <img src="img/tigre2.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-12 offset-md-1 col-md-5">
-                        <h1 class="titrehurl">Célébration du mois du tigre à la WWF.</h1>
-                        <p class="texttigre">Les combats qui font rage depuis un an dans l'extr^me nord de la Birmanie font des victimes inattendues: des dizaines de tigres, qui survivent tant bien que mal dans la plus grande réserve au monde dédiée à leur protection, et située près des zones de combats.</p>
+                        <a id="#mois"></a><h1 class="titrehurl">Célébration du mois du tigre à la WWF.</h1>
+                        <p class="texttigre">Les combats qui font rage depuis un an dans l'extrême nord de la Birmanie font des victimes inattendues: des dizaines de tigres, qui survivent tant bien que mal dans la plus grande réserve au monde dédiée à leur protection, et située près des zones de combats.</p>
                         <p class="texttigre">En 2010, la junte aujourd'hui dissoute avait étendu ce santuaire, qui atteint désormais près de 22.000km - quasiment la taille d'Israël dans la vallée recumée de Hukang. De 50 à 70 tigres y vivraient aujourd'hui.</p>
                     </div>
                 </div>
@@ -78,7 +81,7 @@
                         <div class="d-none d-lg-block col-lg-12 textvert">Aidez les tigres de Birmanie maintenant</div>
                         <div class="d-none d-lg-block col-lg-12 textvert">Devenez membre annuel de la fondation WWF!</div>
                         <div class="offset-lg-3 col-lg-6 boutonmembre mt-3">
-                            <h1 class="membre">Devenir membre</h1>
+                            <a id="#aider"<h1 class="membre">Devenir membre</h1>
                         </div>
                     </div>
                 </div>
@@ -104,13 +107,13 @@
             </div>
         </div>
 
-        <!--Footer-->
+        <!-- Footer -->
         <footer>
             <div class="container-fluid fondgris">
                 <div class="container">
                     <div class="row d-flex align-items-center justify-content-around ">
                         <div class="d-none d-lg-block col-lg-3  text-center order-lg-1">
-                            <img src="img/WWF-logo.png" alt="" class="img-fluid">
+                            <a id="#bas"></a><a href="haut"><img src="img/WWF-logo.png" alt="" class="img-fluid"></a>
                         </div>
                         <div class="offset-2 offset-md-0 col-4 mt-3 order-2 text-md-center col-md-4 order-md-1 order-lg-2 col-lg-2">
                             <div class="row">
