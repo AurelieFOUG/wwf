@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*En tete*/
+.fond{
+    background-image: url(../img/tigre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.menu{
+    color:white;
+    font-size: 20px;
+}
+
+.fondopacite{
+    background-color: rgba(0,0,0,0.3);
+}
+.titretigre{
+    color:white;
+    text-align: center;
+}
+.textmenu{
+    color: white;
+    font-size: 1em;
+    line-height: normal;
+}
+.boutondossier{
+    background-color: black;
+    border:solid 1px white;
+    height:40px;
+    border-radius: 20px;
+}
+.dossiercomplet{
+    font-size: 15px;
+    color: white;
+    line-height:38px;
+}
+
+/*Bandeau blanc*/
+.titrehurl{
+    color: black;
+    text-align: center;
+    font-size: 2em;
+
+}
+.texttigre{
+    color: gray;
+    font-size: 15px;
+    line-height: normal;
+}
+
+/*Bandeau vert*/
+.fondvert{
+    background-color: #6FEC3D;
+}
+.textvert{
+    color: white;
+    font-size: 1.5em;
+}
+.boutonmembre{
+    background-color: skyblue;
+    border:solid 3px white;
+    height:50px;
+    border-radius: 25px;
+}
+.membre{
+    font-size: 1em;
+    color: white;
+    line-height: 40px;
+}
+.imgtigre{
+    position:relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Diaporama*/
+.boutondiapo{
+    background-color: black;
+    height:50px;
+    border-radius: 25px;
+    border:solid 3px white;
+    line-height: 40px;
+}
+.relative{
+    position: relative;
+}
+.absol{
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    left: 0;
+    bottom: 0;
+}
+.texttig{
+    color: white;
+    line-height: inherit;
+}
+
+/*Footer*/
+.fondgris{
+    background-color: gray;
+}
+.textbas{
+    color: black;
+    font-size: 15px;
+}
+.boutonmembrebas{
+    background-color: skyblue;
+    border:solid 1px white;
+    height:40px;
+    border-radius: 20px; 
+}
+.membrebas{
+    font-size: 15px;
+    color: white;
+    line-height:38px;
+}
+
+@media screen and (max-width:576px){
+    .fond{
+        background-image: url(../img/tigresmart.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+}
+@media screen and (max-width:992px){
+    .absol{
+        height: 100%;
+    }
+    .boutondiapo{
+        background-color: black;
+        height:30px;
+        border-radius: 15px;
+        border:solid 3px white;
+        line-height: 25px;
+    }
+}
