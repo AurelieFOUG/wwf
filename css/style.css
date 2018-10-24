@@ -17,6 +17,9 @@ body{
 .menu:hover{
     color:black;
 }
+a:hover {
+    color: black;
+}
 
 .fondopacite{
     background-color: rgba(0,0,0,0.3);
@@ -63,16 +66,16 @@ body{
     color: white;
     font-size: 1.5em;
 }
-.boutonmembre{
-    background-color: skyblue;
-    border:solid 3px white;
-    height:50px;
-    border-radius: 25px;
-}
 .membre{
     font-size: 1em;
     color: white;
     line-height: 40px;
+}
+.boutonmembre{
+    background-color: skyblue;
+    border:solid 1px white;
+    height:40px;
+    border-radius: 20px;
 }
 .imgtigre{
     position:relative;
@@ -91,6 +94,7 @@ body{
 .relative{
     position: relative;
 }
+
 .absol{
     position: absolute;
     background-color: rgba(0,0,0,0.3);
